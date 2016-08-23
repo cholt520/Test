@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="entity.Beach" table="BEACH">
+   
+      <id name="beach_id" type="int" column="beach_id">
+         <generator class="native"/>
+      </id>
+      <property name="beach_name" column="beach_name" type="string"/>
+      <property name="region" column="region" type="string"/>
+      <property name="council" column="council" type="string"/>
+      <property name="state" column="state" type="string"/>
+      <property name="longitude" column="longitude" type="string"/>
+      <property name="latitude" column="latitude" type="string"/>
+   </class>
+</hibernate-mapping>

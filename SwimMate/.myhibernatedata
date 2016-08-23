@@ -1,0 +1,16 @@
+#MyEclipse Hibernate Properties
+#Fri Jul 15 18:21:15 AEST 2016
+genVersionTag=false
+genAnnotations=false
+configFile=/FIT5120-4/src/hibernate.cfg.xml
+reStrategyClass=
+sessionFactoryId=
+profile=
+detectM2M=false
+genBasicCompId=false
+keyGenerator=
+createConfigFile=true
+basePersistenceClass=
+detectO2O=false
+useJavaTypes=true
+reSettingsFile=
